@@ -4,7 +4,7 @@ from groq import Groq
 from typing import Generator
 
 st.title("Chat Bot de proposito general")
-
+page_icon="😊", # Ícono
 # Declaramos el cliente de Groq
 client = Groq(
     api_key=st.secrets["ngroqAPIKey"], # Cargamos la API key del .streamlit/secrets.toml
