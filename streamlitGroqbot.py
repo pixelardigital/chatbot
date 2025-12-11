@@ -11,7 +11,7 @@ client = Groq(
 )
 
 # Lista de modelos pare elegir
-modelos=['llama-3.3-70b-versatile','openai/gpt-oss-120b','meta-llama/llama-guard-4-12b']
+modelos=['llama-3.3-70b-versatile','openai/gpt-oss-120b','openai/gpt-oss-20b']
 
 def generate_chat_responses(chat_completion) -> Generator[str, None, None]:   
     """ Generated Chat Responses
